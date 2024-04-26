@@ -1,0 +1,828 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: rgb(243, 240, 235);
+}
+
+.header{
+
+}
+
+.info{
+    background-color:rgba(46,105,225);
+    height: 3rem;
+    color: aliceblue;
+    padding: 1rem;
+    font-size: 95%;
+}
+
+.infotext{
+    width: fit-content;
+    margin: auto;
+}
+
+.learn{
+    color: orange;
+}
+
+
+.nav{
+    width: 100%;
+    display: flex;
+    background-color: white;
+    height: 4rem;
+    gap: 3rem;
+    align-items: center;
+    box-shadow: 0 4px 6px 1px rgba(3, 1, 7, 0.1);
+    font-size: 85%;
+    color: rgb(57, 55, 55);
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.lnav{
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+}
+
+.logo{
+    height: 3rem;
+}
+
+.navcontainer{
+    display: flex;
+    
+}
+
+.navcontainer ul{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.navcontainer ul li{
+   list-style: none;
+}
+
+.plan{
+    color:rgba(46,105,225);
+    font-weight: bold;
+}
+
+.login{
+  background-color: white;
+  border: none;
+  font-weight: bold;
+
+}
+
+
+.icon{
+    color: black;
+    height: 1.5rem;
+    display:none;
+}
+
+.about{
+  display: flex;  
+  margin-top: 2rem ;
+  padding: 1rem;
+}
+
+.aboutimg{
+    width: 40%;
+    border-radius: 9px;
+    margin-top: 2rem;
+    
+}
+
+.labout{
+    margin: 1rem;
+}
+
+.labout h4{
+    color:rgba(46,105,225) ;
+}
+
+.labout h1{
+    font-size: 270%;
+}
+
+.aimg{
+    width: 100%;
+}
+
+.labout p{
+    margin-top: 1rem;
+}
+
+.demo{
+    background-color: rgba(255,213,13);
+    width: fit-content;
+    padding: 10px 1rem;
+    margin-top: 1rem;
+    border-radius: 50px;
+    font-weight: bolder;
+  
+   
+}
+
+.demo p{
+    margin: 0 auto;
+}
+
+.backings{
+    display: flex;
+    background-color:rgba(46,105,225) ;
+    height: 6rem;
+    margin-bottom: 3rem;
+    align-items: center;
+    gap: 3rem;
+}
+
+.hype{
+    width: fit-content;
+    height: fit-content;
+    margin: auto 2rem;
+}
+
+.hype h1{
+    color: white;
+    font-size: 170%;
+}
+
+.names{
+    display: flex;
+    width: fit-content;
+}
+
+.names img{
+    height: 3.5rem;
+    border-radius: 5px;
+    width: 9rem;
+   
+}
+
+.fleximg{
+    display: flex;
+    gap: 2rem;
+}
+
+.uses{
+    width: 95%;
+    background-color: white ;
+    margin: 2rem auto;
+    border-radius: 10px;
+    padding: 3rem 3rem;
+    box-shadow: 6px -6px 6px 2px rgba(3, 1, 7, 0.1); ;
+}
+
+.tutor{
+      display: flex;
+      margin-bottom: 5rem;
+      
+    }
+    
+.ltutor h1{
+    font-size: 220%;
+}
+
+.rteaching h1{
+    font-size: 220%;
+}
+
+.ltutor{
+    margin-top: 1rem;
+    width: fit-content;
+    margin: auto 1rem;
+}
+
+
+.rteaching{
+    margin-top: 1rem;
+    width: fit-content;
+    margin: auto 1rem;
+}
+
+.teaching{
+    display: flex;
+}
+
+.learnbtn{
+    background-color: rgba(46,105,225);
+    width: fit-content;
+    padding: 10px 1rem;
+    margin-top: 1rem;
+    color: white;
+    border-radius: 50px;
+    font-weight: bolder;
+    margin-top: 3rem;
+}
+
+.learnbtn p{
+    margin: 0 auto;
+}
+
+.usesimg{
+    padding-top: 0;
+    width: 50%;
+    display: block;
+     border-radius: 10px;
+}
+
+.usetext{
+    margin-top: 1rem;
+}
+
+.none{
+    display: none;
+}
+
+.impact{
+    background-color: rgba(46,105,225);
+    height: 23rem;
+    width: 100%;
+    padding: 1rem;
+    color: white;
+    margin-bottom: 3rem;
+    
+}
+
+.impact h1{
+    margin: 1rem auto;
+    width: fit-content;
+    font-size: 200%;
+}
+
+.impactnum{
+    width: fit-content;
+    margin: 3rem auto;
+}
+
+.impact img{
+    margin: auto;
+    width: 10rem;
+}
+
+.schedule{
+    height: 20rem;
+    background-color: rgba(46,105,225);
+    color: white;
+    padding: 2rem;
+    margin: 2rem auto;
+}
+
+.schedule h1{
+    font-size: 200%;
+    width: fit-content;
+    margin: 3rem auto;
+}
+
+.mid{
+    margin: 2rem auto;
+    color: black;
+}
+
+.tablecontainer{
+    display: flex;
+    width:fit-content ;
+    margin: 2rem auto;
+    gap: 5rem;
+}
+
+.tablecontainer ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    list-style: none;
+}
+
+.tablecontainer li{
+    columns: grey;
+    
+}
+
+.head{
+    color: rgb(106, 103, 103);
+    font-weight: bold;
+}
+
+.table{
+    padding: 2rem;
+}
+
+.table a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+
+.table a:link{
+    text-decoration: none;
+    color: red;
+}
+
+.table a:active {
+    color: #fcb900;
+    text-decoration: none;
+}
+
+.table a:hover{
+    color:rgb(146, 141, 141);
+}
+
+hr{
+    width: 100%;
+    height:2px;
+    margin-bottom: 2rem ;
+    margin-top: 1rem;
+}
+
+.copy{
+    display: flex;
+    gap: 2rem;
+    width: fit-content;
+    margin: 2rem auto;
+    font-size: 120%;
+    color: rgb(92, 92, 87);
+}
+
+.fixed{
+    position: fixed;
+    color:white;
+    background-color:rgba(46,105,225);
+    width: 6rem;
+    border-radius: 10rem;
+    height: 2rem;
+    right: 2rem;
+    bottom: 2rem;
+    font-weight: bolder;
+    font-size: 130%;
+}
+
+.fixed p{
+    width: fit-content;
+    margin: 6px auto;
+    text-decoration: none;
+
+}
+
+
+.fixed a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+
+.fixed a:link{
+    text-decoration: none;
+    color:white;
+}
+
+.fixed a:active {
+    color:white;
+    text-decoration: none;
+}
+
+.fixed a:hover{
+    color:rgb(208, 220, 224);
+}
+
+.loginmodal{
+    background-color: rgb(228, 222, 212);
+    width: 30%;
+    height: 60%;
+    padding: 2.5rem;
+    position: relative;
+    border-radius: 8px;
+    position: absolute;
+    top: 7rem;
+    left: 50%;
+    transform: translate(-50%);
+    position: fixed;
+    color: rgb(160, 148, 148);
+    z-index: 1000;
+    transition: all 0.5s;
+    
+}
+
+.exitmodal{
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    background-color:rgb(228, 222, 212);
+    color: rgba(46, 85, 158, 0.874);
+    border: none;
+    font-size: 1.5rem;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+label{
+    color: rgba(53, 118, 238, 0.874);
+   font-size: 120%;
+   font-weight: bold;
+}
+
+input{
+    width: 70%;
+    height: 1,5rem;
+    border: none;
+    border-radius: 6px;
+    padding: 5px;
+    align-content: center;
+}
+
+.loginmodal div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    
+}
+
+.nbutton{
+    width: 30%;
+    margin: auto;
+    height: 2rem;
+    border-radius: 8px;
+    border:none;
+    color: rgba(53, 118, 238, 0.874);
+    font-weight: bolder;
+    background-color: silver;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 2rem;
+}
+
+.hidden{
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: nonec;
+}
+
+.listen{
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    top: 9rem;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: rgb(0, 255, 166);
+}
+
+
+.show{
+    display: block;
+    width:1rem;
+}
+
+.navcontainer div{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    
+}
+
+.popup{
+    font-size: 80%;  
+    color: rgb(113, 105, 105);
+}
+
+.whatpopup{
+    background-color: white;
+    box-shadow: 2px 2px 3px -1px grey;
+    width: 12rem;
+    height: 15rem;
+    padding: 1rem;
+    position: absolute;
+    top: 6rem;
+    border-radius: 3px;
+    left: 3.5rem;
+    transition: 0.2s;
+}
+
+.rpopup{
+    background-color: white;
+    box-shadow: 2px 2px 3px -1px grey;
+    width: 12rem;
+    height: 12rem;
+    padding: 1rem;
+    position: absolute;
+    top: 6rem;
+    border-radius: 3px;
+    left: 24rem;   
+    transition: 0.2s;
+
+}
+
+.planpopup{
+    background-color: white;
+    box-shadow: 2px 2px 3px -1px grey;
+    width: 12rem;
+    height: 4.5rem;
+    padding: 1rem;
+    position: absolute;
+    top: 6rem;
+    border-radius: 3px;
+    left: 38rem;   
+    transition: 0.2s;
+}
+
+.popup ul{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+.popup li{
+    list-style: none;
+}
+
+.sidemenu{
+    width: 45%;
+    background-color: white;
+    height: 85%;
+    padding: 1rem;
+    position: absolute;
+    top: 6rem;
+    right: 0px;
+    overflow: scroll;
+    box-shadow: -0.5px -0.5px 4px 1px rgb(198, 191, 191) ;
+    border-radius: 8px 0 0 8px;
+    transition: 0.5s;
+}
+
+.sidemenu li{
+    list-style:none  ;
+    margin-left: 2rem;
+}
+
+.sidemenu ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.major{
+    font-size: 110%;
+    margin-bottom: 5px;
+    color:rgba(46,105,225) ;
+    
+}
+
+.exitmenu{
+    position: absolute;
+    top: 2px;
+    right: 1rem;
+    background-color:white;
+    color: rgba(46, 85, 158, 0.874);
+    border: none;
+    font-size: 1.5rem;
+}
+
+
+
+
+@media(max-width: 65.75em){
+    html{
+        font-size: 80%;
+    }
+    .info{
+        height: 4rem;
+    }
+    .about{
+        display: block;
+    }
+    .aboutimg{
+        width: 50%;
+        margin: 2rem 25%;
+
+    }
+    .loginmodal{
+        font-size: 75%;
+    }
+
+    .rpopup{
+        top:8rem ;
+    }
+
+    .planpopup{
+        top:8rem ;
+        
+    }
+
+    .whatpopup{
+        top: 8rem;
+    }
+    
+}
+
+@media(max-width:54em){
+    .tutor{
+        display: block;
+    }
+    
+    .uses h1{
+        font-size: 170%;
+    }
+    
+    .none{
+        display: block;
+    }
+    
+    .block{
+        display: none;
+    }
+
+    .teaching{
+        display: block;
+    }
+
+    .center{
+        margin: auto;
+    }
+
+    .learnbtn{
+        margin: 2rem auto;
+
+    }
+    .usesimg{
+    width: 70%;
+    margin-bottom: 2rem;
+    }
+
+    input{
+        height: 1.5rem;
+    }
+
+
+}
+
+@media(max-width:47.5em){
+    html{
+        font-size: 85%;
+    }
+    .nav{
+        justify-content: space-between;
+    }
+    .navcontainer{
+        display: none;
+    }
+    .login{
+        display: none;
+    }
+    .icon{
+        display: block;
+    }
+    .span{
+        display: none;
+    }
+    .info{
+        height: 3rem;
+    }
+    .aboutimg{
+        width: 90%;
+        margin: 1rem 0;
+        margin-left: 1rem;
+    }
+
+    .backings{
+        display: block;
+        height: 13rem;
+    }
+    .hype{
+        margin: auto;
+    }
+
+    .names{
+        margin: auto;
+        margin-top: 2rem;
+    }
+
+    .table{
+        font-size: 85%;
+    }
+
+    .tablecontainer{
+        gap: 1rem;
+    }
+
+    .tablecontainer ul{
+        gap: 5px;
+    }
+   
+    .loginmodal{
+        height: 50%;
+        width: 40%;
+        padding: 1.5rem;
+    }
+
+    .exitmodal{
+        right: 10px;
+    }
+    
+    .nbutton{
+        font-size: 90%;
+    }
+
+    .popup{
+        display: none;
+    }
+
+
+}
+
+@media(max-width:27.7em){
+    html{
+        font-size: 80%;
+    }
+    .labout h1{
+        font-size: 190%;
+    }
+    .info{
+        display: none;
+         }
+
+
+    .names{
+        display: block;
+        margin-top: 1rem;
+    }
+    .backings{
+        height: 13rem;
+        
+    }
+
+    .names img{
+        width: 9rem;
+    }
+
+
+    .impact{
+        height: fit-content;
+        width: 90%;
+        margin: auto;
+        border-radius: 10px;
+        margin-bottom: 2rem;
+    }
+
+    .impact img{
+        display: block;
+    }
+
+    .table{
+        font-size: 80%;
+    }
+
+    .loginmodal{
+        width: 50%;
+        height: 40%;
+    }
+
+    .sidemenu{
+        top: 4rem;
+        width: 80%;
+        height: 90%;
+    }
+
+}
+
+@media(max-width:23em){
+    .names img{
+        width: 6rem;
+        height: 4rem;
+    }
+    .backings{
+        font-size: 75%;
+        height: 15rem;
+    }
+
+    html{
+        font-size: 60%;
+    }
+
+    .uses h1{
+        font-size: 120%;
+    }
+
+    .loginmodal{
+        width: 60%;
+        height: 30%;
+    }
+
+}
+
+

@@ -1,0 +1,323 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+}
+
+body{
+    font-size: 62.5%;
+}
+
+header{
+     background-color: black;
+     height: 10rem;
+     width: 100%;
+     padding: 1rem;
+     display: flex;
+     align-items: center;
+     gap: 6rem  ;
+}
+
+.navcontainer{
+    display: flex;
+    align-items: center;
+    padding-top: 4rem;
+    gap: 2rem;
+}
+
+.logo{
+    height: 3rem;
+}
+
+.navlist{
+    display: flex;
+    gap: 1.5rem;
+    font-size: large;
+}
+
+.navitem{
+    color: aliceblue;
+    list-style: none;
+}
+
+.navitem:hover{
+    text-decoration: underline;
+    text-decoration-color: aqua;
+    text-decoration-style:solid ;
+}
+
+.iconcontainer{
+    display: flex;
+    padding-top: 4rem;
+    gap: 1rem;
+}
+
+.icon{
+    color: aliceblue;
+    height: 1.5rem;
+}
+
+.communitycontainer{
+    background-color: rgb(243, 240, 240);
+    margin-top:4rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    height: 3.5rem;
+}
+
+.advertbar{
+    display: flex;
+}
+
+.all{
+    background-color:rgb(232, 197, 21);
+    height: 3.5rem;
+    margin-left: 4rem;
+    width: 12rem;
+    padding: 1.4rem;
+    padding-left: 2.3rem;
+    border-radius: 5px;
+    font-size: 140%;
+
+}
+
+.advert{
+    padding-left: 30%;
+    padding-top: 1.3rem;
+}
+
+.label{
+    font-size: 300%;
+    margin-top: 2rem;
+    margin-bottom: 2REM;
+    color: black;
+}
+
+.communityactivity{
+    height: 20rem;
+    width: 33%;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 8px;
+    border-color: rgb(243, 240, 240);
+    border-style: solid;
+}
+
+.users{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    font-size:large;
+    font-weight: bold;
+    gap: 1rem;
+    color: rgb(114, 114, 224);
+
+} 
+
+.userimage{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+   
+}
+
+.activity{
+   color: black;
+}
+
+.comment{
+    font-size: large;
+    margin-top: 2rem;
+    font-weight: bold;
+    color: rgb(131, 124, 124);
+
+}
+
+.period{
+    display: flex;
+    margin-top: 8rem;
+    font-size: 140%;
+    font-weight: bold;
+    gap: 11rem;
+}
+
+.time{
+    color: rgb(99, 96, 96);
+}
+
+.reply{
+    color: black;
+}
+
+.craving{
+    height: 20rem;
+    width: 33%;
+    /* background-color: rgb(225, 220, 220) ; */
+    border-radius: 8px;
+}
+
+.craving img{
+    height: 20rem;
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+.explorecontainer{
+    display: flex;
+    gap: 3rem;
+}
+
+.explore{
+    font-size: large;
+    width: 10rem;
+}
+
+.exploreimage{
+    height:10rem;
+    width:10rem;
+    border-radius: 50%;
+}
+
+.adverttwo{
+    margin-left: 45%;
+    padding-top: 1.3rem;
+}
+
+.trending{
+ display: flex;
+ gap:3rem;
+}
+
+.trendingitem{
+    width:16rem;
+    height: 20rem;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: rgb(235, 239, 243);
+    font-size: large;
+    margin-bottom: 3rem;
+}
+
+.trendingitem p{
+    width: fit-content;
+    margin: 1rem auto;
+}
+
+.trendingimage{
+    width:15.8rem;
+    height: 14rem;
+    /* border-radius: ; */
+}
+
+.cook{
+   height: 25rem;
+   margin: 2rem;
+   display: flex; 
+   color: rgb(156, 148, 148);
+   
+}
+
+.cookimage{
+    width: 65%;
+    height: 25rem;
+}
+
+.cooktext{
+    margin-left: 4rem;
+    width: 25%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+    
+.tag{
+    font-size: medium;
+}
+
+.textcontent{
+    font-size: large;
+}
+
+.search{
+    background-color: rgb(243, 243, 243);
+    height: 15rem;
+    margin: 1px;
+    padding: 1px;
+    width:100% ;
+    justify-self: center;
+    position: relative;
+}
+
+.center{
+   padding-left: 5rem;
+   padding-top: 2rem;
+   width: 40%;
+   margin: auto;
+   
+}
+
+.searchh{
+    color: black;
+    position: absolute;
+    top: 9px;
+    left: 1rem;
+}
+
+.searchbar{
+    height: 3rem;
+    margin: 2rem;
+    border-style: solid;
+    border-color: rgb(156, 148, 148);
+    margin-left:13rem ;
+    margin-right:13rem ;
+    border-radius: 50px;
+    background-color:white;
+    position: relative;
+}
+
+.searchbtn{
+    background-color:rgb(232, 197, 21);
+    height: 2.5rem;
+    width: 14rem;
+    border-style: none;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+   transform: translate(-50%, -50%);
+    border-radius: 5px;
+    font-size: large;
+
+}
+
+.end{
+    height: 6rem;
+    background-color: black;
+}
+
+
+@media (max-width: 77.2em){
+    html{
+        font-size: 61%;
+    }
+    .explorecontainer{
+        display: grid;
+    }
+
+    .advertbar{
+        padding: 1.5rem 1rem;
+        /* background-color: black; */
+    }
+
+    .all{
+        font-size: 9px;
+        background-color: blue;
+        padding: 1rem;
+    }
+}
+
+/* @media(max-width: ) */
+

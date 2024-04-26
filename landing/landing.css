@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 62.5%;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    color: green;
+    font-size: 1.5rem;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 1.2rem;
+    width: 1.2rem;
+    color: white;
+}
+
+.muzzan{
+    font-size: 1.5rem;
+}
+
+.market{
+    color: white;
+}
+
+.exo {
+    /* width: 6.3re; */
+    font-size: 2rem;
+}
+
+.buy{
+    padding: 5px 1rem;
+    color: rgb(50, 205, 50);
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    margin-left: 7px;
+}
+
+.heading {
+    background-color: green;
+    height: 20rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 9rem 6rem;
+}
+
+.demos{
+    font-size: 2rem;
+    width: 20rem;
+    font-weight: 800;
+    margin: 12rem auto;
+}
+
+.cars {
+    height: 25rem;
+    width: 20rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid black;
+    margin-bottom: 1rem;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    /* row-gap: 1px; */
+}
+
+.car-div{
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    width: 100%;
+    margin-top: 3rem;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 64em){
+    .cars {
+        height: 17rem;
+        width: 15rem;
+    }
+}
+
+@media (max-width: 48em) {
+    html{
+        font-size: 60%;
+    }
+    .heading{
+        padding: 5rem 4rem;
+        display: block;
+        height: 25rem;
+    }
+    
+
+    .cars {
+        width: 14rem;
+        height: 13rem;
+    }
+
+    .exo{
+        margin-bottom: 5rem;
+    }
+
+    .grid{
+        /* gap: 2rem; */
+    }
+}
+
+@media (max-width: 24em){
+    html {
+        font-size: 55%;
+    }
+    .buy{
+        /* font-size: 10px; */
+        padding: 4px 8px;
+    }
+}
+
+@media (max-width: 18.4em){
+    html {
+        font-size: 50%;
+    }
+}
+
+@media (max-width: 29em) {
+    .grid{
+        display: block;
+    }
+    .car-div{
+        width: 70%;
+        margin:0 auto;
+        margin-bottom: 5rem;
+    }
+    .cars{
+        width: 100%;
+        height:35rem;
+    }
+}
+
+@media (max-width: 20em){
+    .btn-div{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        padding: 3px 7px;
+    }
+}
